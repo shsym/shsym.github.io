@@ -112,7 +112,7 @@ img::-moz-selection {
 }
 
 .img-fluid-pic {
-  max-width:70%;
+  max-width:50%;
   height:auto;
 }
 
@@ -220,7 +220,7 @@ header.masthead .overlay {
 header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
-  padding: 120px 0 20px;
+  padding: 200px 0 50px;
   color: white;
 }
 
@@ -237,7 +237,7 @@ header.masthead .site-heading_pic {
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
-    padding: 120px 0 20px;
+    padding: 200px 0 50px;
   }
 }
 
