@@ -12,7 +12,7 @@ body {
 
 p {
   line-height: 1.6;
-  margin: 0 0;
+  margin: 0 0 5px;
   font-weight: 400;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 17px;
@@ -28,6 +28,11 @@ a:link {
 
 a:visited {
   text-decoration: none;
+}
+
+h1,
+h2{
+  margin: 0 0 25px;
 }
 
 h1,
@@ -104,6 +109,11 @@ img::selection {
 img::-moz-selection {
   color: #fff;
   background: transparent;
+}
+
+.img-fluid-pic {
+  max-width:70%;
+  height:auto;
 }
 
 #mainNav {
@@ -227,7 +237,7 @@ header.masthead .site-heading_pic {
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
-    padding: 80px 0 20px;
+    padding: 120px 0 20px;
   }
 }
 
